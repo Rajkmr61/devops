@@ -1,0 +1,6 @@
+Chose "configure" to modify your jenkins job.
+Under post build actions
+Send files or execute commands over SSH
+Exec Command:
+   cd /opt/playbooks
+   ansible-playbook create_docker_container.yml

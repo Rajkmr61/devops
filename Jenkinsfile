@@ -14,12 +14,12 @@ pipeline {
         }
         stage('test') {
             steps {
-                echo 'test World'
+                echo 'testing World'
             }
         }
         stage('deploy') {
             steps {
-                echo 'deploy World'
+                echo 'deploying World'
             }
         }
     }
